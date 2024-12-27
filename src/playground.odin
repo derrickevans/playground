@@ -24,13 +24,11 @@ handle_input :: proc(dt: f32) {
 
     if rl.IsKeyDown(.W) {
         player.animation.state = .WALK
-        player.animation.frame.flip = false
         player.position.y -= 100.0 * dt
     }
 
     if rl.IsKeyDown(.S) {
         player.animation.state = .WALK
-        player.animation.frame.flip = false
         player.position.y += 100.0 * dt
     }
 
