@@ -1,3 +1,4 @@
 *.exe
-res/*
 ols.json
+.vscode/
+*.code-workspace
