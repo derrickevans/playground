@@ -1,2 +1,4 @@
 *.exe
 ols.json
+.vscode/
+*.code-workspace
